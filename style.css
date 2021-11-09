@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header ------------------------------------------------------------------- */
+
+
+/* Header first section ------------------ */
+
+header>div:first-child {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/* Header second section ------------------ */
+
+header>div:last-child {
+    position: sticky;
+    top: 0;
+    background-color: #00669F;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Main ------------------------------------------------------------------- */
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+
+/* Card styles ------------------ */
+
+.card {
+    position: relative;
+    width: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+    text-align: center;
+    margin: 15px;
+}
+
+.heroe {
+    position: absolute;
+    border-radius: 50%;
+    top: 24%;
+    left: 30%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.like {
+    position: absolute;
+    top: 3%;
+    left: 7%;
+}
+
+.info-container h2 {
+    margin-top: 25%;
+    font-size: 30px;
+}
+
+.info-container p {
+    padding: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.info-container button {
+    background-color: #00669F;
+    border: none;
+    padding: 15px 25px 15px;
+    color: #F3F3F3;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+/* Footer ------------------------------------------------------------------- */
+
+footer {
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 10%;
+}
